@@ -27,9 +27,6 @@ with open(election_input) as election_data:
     # Loop through each row of the dataset and process it
     for row in reader:
         
-        # Print a loading indicator (large dataset)
-        # print(". ", end="")
-        
         # Increment the total vote count for each row
         total_votes += 1
 
